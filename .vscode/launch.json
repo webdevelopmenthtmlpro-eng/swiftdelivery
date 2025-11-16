@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug Backend",
+      "program": "${workspaceFolder}/swift-delivery-backend/server.js",
+      "envFile": "${workspaceFolder}/swift-delivery-backend/.env",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "type": "pwa-chrome",
+      "request": "launch",
+      "name": "Debug Frontend",
+      "url": "http://localhost:5173",
+      "webRoot": "${workspaceFolder}/swift-delivery-frontend/src"
+    }
+  ]
+}
+
+
