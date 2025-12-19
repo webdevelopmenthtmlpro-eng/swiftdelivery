@@ -1,0 +1,8 @@
+To register as admin, send a POST request to /api/register-admin with:
+
+{
+  "name": "Admin Name",
+  "email": "admin@example.com",
+  "password": "password123",
+  "adminSecret": "swift-delivery-admin-2024"
+}

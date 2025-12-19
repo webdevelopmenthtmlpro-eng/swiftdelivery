@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"Codegeex.SidebarUI.LanguagePreference": "English",
+		"Codegeex.RepoIndex": true
+	}
+}
